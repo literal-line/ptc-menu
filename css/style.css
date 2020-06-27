@@ -15,6 +15,7 @@
 
 body {
     background-color: #000000;
+    image-rendering: pixelated;
 }
 
 #ctb {
@@ -22,7 +23,11 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'smilebasic';
+}
+
+#ctb img {
+    margin: auto;
+    display: block;
 }
 
 #ptc {
@@ -34,7 +39,6 @@ body {
     background-image: url('../assets/bg scroll.png');
     animation: scrolling 5s linear infinite;
     border: 1px solid #888888;
-    image-rendering: pixelated;
 }
 
 #ptc img {
