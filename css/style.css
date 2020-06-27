@@ -16,7 +16,9 @@
 body {
     background-color: #000000;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
 }
+
 
 #ctb {
     position: absolute;
