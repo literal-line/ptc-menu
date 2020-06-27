@@ -6,8 +6,8 @@ var title = document.getElementById('title');
 var allBtn = document.getElementsByClassName('btn');
 var clickToBegin = document.getElementById('ctb');
 
-var bgm = new Audio('../assets/audio/26 Pure Water.mp3');
-var beep9 = new Audio('../assets/audio/BEEP9.mp3');
+var bgm = new Audio('./assets/audio/26 Pure Water.mp3');
+var beep9 = new Audio('./assets/audio/BEEP9.mp3');
 
 var count = 0;
 var x = 0;
