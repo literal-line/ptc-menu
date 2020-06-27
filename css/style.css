@@ -41,6 +41,7 @@ body {
     background-image: url('../assets/bg scroll.png');
     animation: scrolling 5s linear infinite;
     border: 1px solid #888888;
+    zoom: 200%;
 }
 
 #ptc img {
