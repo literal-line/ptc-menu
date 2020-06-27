@@ -1,0 +1,101 @@
+@-webkit-keyframes scrolling {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -200% -98%;
+    }
+}
+
+@font-face {
+    font-family: smilebasic;
+    src: url('/assets/font/SMILEBASIC.ttf');
+}
+
+
+body {
+    background-color: #000000;
+}
+
+#ctb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'smilebasic';
+}
+
+#ptc {
+    position: relative;
+    height: 384px;
+    width: 256px;
+    margin: auto;
+    /*background-color: #284070;*/
+    background-image: url('/assets/bg scroll.png');
+    animation: scrolling 5s linear infinite;
+    border: 1px solid #888888;
+    image-rendering: pixelated;
+}
+
+#ptc img {
+    position: absolute;
+}
+
+#title {
+    top: 2px;
+    left: 2px;
+}
+
+#drprofessor {
+    top: 128px;
+    left: 1px;
+}
+
+#hmb {
+    top: 192px;
+}
+
+#writeProgram {
+    top: 221px;
+    left: 9px;
+}
+
+#viewGallery {
+    top: 251px;
+    left: 9px;
+}
+
+#fileManagement {
+    top: 283px;
+    left: 9px;
+}
+
+#help {
+    bottom: 3px;
+    left: 9px;
+}
+
+#dsiMenu {
+    top: 355px;
+    left: 195px;
+}
+
+#demo {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    color: #FF0000;
+    font-family: 'smilebasic';
+}
+
+#github {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin: 0;
+    opacity: 0.5;
+}
+
+
+
