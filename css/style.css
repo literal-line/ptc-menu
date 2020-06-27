@@ -31,7 +31,7 @@ body {
     width: 256px;
     margin: auto;
     /*background-color: #284070;*/
-    background-image: url('/assets/bg scroll.png');
+    background-image: url('./assets/bg scroll.png');
     animation: scrolling 5s linear infinite;
     border: 1px solid #888888;
     image-rendering: pixelated;
