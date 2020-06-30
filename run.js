@@ -49,8 +49,6 @@ function setupEventListers() {
         allBtn[i].addEventListener('mousedown', function (event) {
             
             this.src = 'assets/btn/' + this.id + '-push.png';
-            this.style.left++;
-            console.log(this.style.left);
             
         });
         allBtn[i].addEventListener('mouseup', function (event) {

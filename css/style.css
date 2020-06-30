@@ -8,8 +8,8 @@
 }
 
 @font-face {
-    font-family: smilebasic;
-    src: url('../assets/font/SMILEBASIC.ttf');
+    font-family: petitcomputer;
+    src: url('../assets/font/PetitComputer.ttf');
 }
 
 
@@ -98,7 +98,8 @@ body {
     left: 10px;
     margin: 0;
     color: #FF0000;
-    font-family: 'smilebasic';
+    font-family: 'petitcomputer';
+    font-size: 28px;
 }
 
 #github {
