@@ -37,11 +37,11 @@ function startPTC() {
 
 function titleFloat() {
     count++;
-    x = Math.cos(count/75);
-    y = Math.cos(count/50) * 3 + 3;
-    title.style.top = 3 + y + 'px';
-    title.style.left = 2 + x + 'px';
-    setTimeout(titleFloat, 10);
+    x = Math.cos(count/75) * 2;
+    y = Math.sin(count/60) * 3 + 3;
+    title.style.top = 3 + Math.floor(y) + 'px';
+    title.style.left = 2 + Math.floor(x) + 'px';
+    setTimeout(titleFloat, 7);
 }
 
 function setupEventListers() {
