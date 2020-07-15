@@ -41,7 +41,7 @@ function titleFloat() {
     y = Math.sin(count/60) * 3 + 3;
     title.style.top = 3 + Math.floor(y) + 'px';
     title.style.left = 2 + Math.floor(x) + 'px';
-    setTimeout(titleFloat, 7);
+    setTimeout(titleFloat, 6);
 }
 
 function setupEventListers() {
