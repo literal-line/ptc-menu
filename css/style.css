@@ -19,6 +19,10 @@ body {
     image-rendering: -moz-crisp-edges;
 }
 
+p {
+    margin: 0;
+}
+
 a {
     color: inherit;
 }
